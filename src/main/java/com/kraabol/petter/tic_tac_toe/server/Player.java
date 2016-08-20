@@ -15,7 +15,7 @@ import com.kraabol.petter.tic_tac_toe.shared.Logger;
  * @author Petter
  *
  */
-public class Player extends Thread {
+public class Player implements Runnable {
 	private Logger log = Logger.getInstance();
 	private String username;
 	private PrintWriter out;
@@ -35,7 +35,7 @@ public class Player extends Thread {
 			e.printStackTrace();
 		}
 		
-		this.start();
+		this.run();
 	}
 	
 	public String getUsername() {

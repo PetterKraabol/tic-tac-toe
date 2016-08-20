@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.kraabol.petter.tic_tac_toe.server;
 
 import java.io.IOException;
@@ -10,11 +7,7 @@ import java.util.ArrayList;
 import com.kraabol.petter.tic_tac_toe.shared.Config;
 import com.kraabol.petter.tic_tac_toe.shared.Logger;
 
-/**
- * @author Petter
- *
- */
-public class GameServer  extends Thread {
+public class GameServer implements Runnable {
 	private Config config = Config.getInstance();
 	private Logger log = Logger.getInstance();
 	
@@ -26,6 +19,7 @@ public class GameServer  extends Thread {
 	}
 	
 	public void run() {
+		System.out.println("GameServer running.");
 		
 		// Server socket
 		try {

@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.kraabol.petter.tic_tac_toe.server;
 
 import java.util.ArrayList;
@@ -8,7 +5,6 @@ import java.util.List;
 
 
 /**
- * @author Petter
  * 
  * 	0 1 2
  *  3 4 5

@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.kraabol.petter.tic_tac_toe.shared;
 
 import java.io.IOException;
@@ -14,10 +11,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
 
-/**
- * @author Petter
- *
- */
 public final class Config {
 	private static Config instance = null;
 	

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import java.util.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.beans.property.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.control.TextArea?>
+
+
+<VBox spacing="10" prefWidth="500" prefHeight="225" fx:controller="com.kraabol.petter.tic_tac_toe.server.LogController" xmlns:fx="http://javafx.com/fxml">
+	<StackPane alignment="CENTER">
+		<TextArea fx:id="output" editable="false" />
+	</StackPane>
+	<HBox spacing="10" alignment="CENTER">
+		<Button fx:id="clearButton" />
+		<Button fx:id="testButton" />
+	</HBox>
+</VBox>

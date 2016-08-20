@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.kraabol.petter.tic_tac_toe.server;
 
 import java.io.IOException;
@@ -9,10 +6,6 @@ import java.util.List;
 
 import com.kraabol.petter.tic_tac_toe.shared.Logger;
 
-/**
- * @author Petter
- *
- */
 public class Game extends Thread {
 	private Logger log = Logger.getInstance();
 	private List<Player> players = new ArrayList<Player>();
